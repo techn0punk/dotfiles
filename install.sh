@@ -22,7 +22,7 @@ echo 'added .ssh Directory' | log
 cp -rvf $REPO/authorized_keys $HOME/.ssh/authorized_keys | log
 cp -rvf $REPO/gitconfig $HOME/.gitconfig | log
 mkdir -p $CONFDIR/neofetch
-cp -rvf $REPO/neofetch.conf $CONFDIR/neofetch/config.conf | log
+cp -rvf $REPO/neofetch.conf $CONFDIR/neofetch/config | log
 cp -rvf $REPO/tmux.conf $HOME/.tmux.conf | log
 cp -rvf $REPO/vimrc $HOME/.vimrc | log
 cp -rvf $REPO/zshrc $HOME/.zshrc | log

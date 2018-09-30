@@ -1,4 +1,3 @@
-call pathogen#infect()
 set number
 
 
